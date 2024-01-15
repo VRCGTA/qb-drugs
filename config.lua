@@ -1,10 +1,10 @@
 Config = {
-    Debug = true,                                          -- true / false - Currently prints the vector3 and label of locations when requesting a delivery
+    Debug = false,                                          -- true / false - Currently prints the vector3 and label of locations when requesting a delivery
     NearbyDeliveries = true,                               -- true / false - Do you want deliveries to be within a certain amount of units?
-    DeliveryWithin = 2000,                                 -- int (Default 2000) - How many units do you want the delivery location to be within from the player when making a delivery request?
+    DeliveryWithin = 5000,                                 -- int (Default 2000) - How many units do you want the delivery location to be within from the player when making a delivery request?
     Dealers = {},
     UseTarget = GetConvar('UseTarget', 'false') == 'true', -- Use qb-target interactions (don't change this, go to your server.cfg and add setr UseTarget true)
-    PoliceCallChance = 99,                                 --in percentage (if 99, theres the 99% to call the police)
+    PoliceCallChance = 100,                                 --in percentage (if 99, theres the 99% to call the police)
 
     -- Shop Config
     Products = {
@@ -104,44 +104,44 @@ Config = {
     SuccessChance = 50,
     ScamChance = 25,
     RobberyChance = 25,
-    MinimumDrugSalePolice = 0,
+    MinimumDrugSalePolice = 2,
 
     DrugsPrice = {
         ['weed_whitewidow'] = {
             min = 15,
-            max = 24,
+            max = 20,
         },
         ['weed_ogkush'] = {
             min = 15,
-            max = 28,
+            max = 21,
         },
         ['weed_skunk'] = {
             min = 15,
-            max = 31,
+            max = 22,
         },
         ['weed_amnesia'] = {
             min = 18,
-            max = 34,
+            max = 25,
         },
         ['weed_purplehaze'] = {
             min = 18,
-            max = 37,
+            max = 27,
         },
         ['weed_ak47'] = {
             min = 18,
-            max = 40,
+            max = 29,
         },
         ['crack_baggy'] = {
             min = 18,
-            max = 34,
+            max = 30,
         },
         ['cokebaggy'] = {
             min = 18,
-            max = 37,
+            max = 32,
         },
         ['meth'] = {
             min = 18,
-            max = 40,
+            max = 34,
         },
     },
 
@@ -149,7 +149,7 @@ Config = {
     UseMarkedBills = false,     -- true for marked bills, false for cash
     DeliveryRepGain = 1,        -- amount of rep gained per delivery
     DeliveryRepLoss = 1,        -- amount of rep lost if delivery wrong or late
-    PoliceDeliveryModifier = 2, -- amount to multiply active cop count by
+    PoliceDeliveryModifier = 1, -- amount to multiply active cop count by
     WrongAmountFee = 2,         -- divide the payout by this value for wrong delivery amount
     OverdueDeliveryFee = 4,     -- divide the payout by this value for overdue delivery
 
@@ -186,6 +186,15 @@ Config = {
         [5] = {
             ['label'] = 'Bahama Mamas',
             ['coords'] = vector3(-1383.1, -639.99, 28.67),
+        },
+        [6] = {
+            ['label'] = 'Desert',
+            ['coords'] = vector3(-1936.72, 2051.11, 140.83),
+        },
+        [7] = {
+            ['label'] = 'Port',
+            ['coords'] = vector3(-1302.43, -2340.96, 14.09)
+            ,
         },
     },
 }
