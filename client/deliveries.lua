@@ -226,7 +226,7 @@ local function DeliverStuff()
     if deliveryTimeout > 0 then
         Wait(500)
         TaskStartScenarioInPlace(PlayerPedId(), "PROP_HUMAN_BUM_BIN", 0, true)
-        PoliceCall()
+        -- PoliceCall()
         QBCore.Functions.Progressbar("work_dropbox", Lang:t("info.delivering_products"), 15000, false, true, {
             disableMovement = true,
             disableCarMovement = true,

@@ -10,7 +10,7 @@ Config = {
     Products = {
         [1] = {
             name = 'weed_whitewidow',
-            price = 15,
+            price = 150,
             amount = 150,
             info = {},
             type = 'item',
@@ -19,7 +19,7 @@ Config = {
         },
         [2] = {
             name = 'weed_skunk',
-            price = 15,
+            price = 150,
             amount = 150,
             info = {},
             type = 'item',
@@ -28,7 +28,7 @@ Config = {
         },
         [3] = {
             name = 'weed_purplehaze',
-            price = 15,
+            price = 150,
             amount = 150,
             info = {},
             type = 'item',
@@ -37,7 +37,7 @@ Config = {
         },
         [4] = {
             name = 'weed_ogkush',
-            price = 15,
+            price = 150,
             amount = 150,
             info = {},
             type = 'item',
@@ -46,7 +46,7 @@ Config = {
         },
         [5] = {
             name = 'weed_amnesia',
-            price = 15,
+            price = 150,
             amount = 150,
             info = {},
             type = 'item',
@@ -55,7 +55,7 @@ Config = {
         },
         [6] = {
             name = 'weed_whitewidow_seed',
-            price = 15,
+            price = 150,
             amount = 150,
             info = {},
             type = 'item',
@@ -64,7 +64,7 @@ Config = {
         },
         [7] = {
             name = 'weed_skunk_seed',
-            price = 15,
+            price = 150,
             amount = 150,
             info = {},
             type = 'item',
@@ -73,7 +73,7 @@ Config = {
         },
         [8] = {
             name = 'weed_purplehaze_seed',
-            price = 15,
+            price = 150,
             amount = 150,
             info = {},
             type = 'item',
@@ -82,7 +82,7 @@ Config = {
         },
         [9] = {
             name = 'weed_ogkush_seed',
-            price = 15,
+            price = 150,
             amount = 150,
             info = {},
             type = 'item',
@@ -91,7 +91,7 @@ Config = {
         },
         [10] = {
             name = 'weed_amnesia_seed',
-            price = 15,
+            price = 150,
             amount = 150,
             info = {},
             type = 'item',
@@ -104,44 +104,44 @@ Config = {
     SuccessChance = 50,
     ScamChance = 25,
     RobberyChance = 25,
-    MinimumDrugSalePolice = 2,
+    MinimumDrugSalePolice = 100,
 
     DrugsPrice = {
         ['weed_whitewidow'] = {
-            min = 15,
-            max = 20,
+            min = 150,
+            max = 200,
         },
         ['weed_ogkush'] = {
-            min = 15,
-            max = 21,
+            min = 150,
+            max = 210,
         },
         ['weed_skunk'] = {
-            min = 15,
-            max = 22,
+            min = 150,
+            max = 220,
         },
         ['weed_amnesia'] = {
-            min = 18,
-            max = 25,
+            min = 180,
+            max = 250,
         },
         ['weed_purplehaze'] = {
-            min = 18,
-            max = 27,
+            min = 180,
+            max = 270,
         },
         ['weed_ak47'] = {
-            min = 18,
-            max = 29,
+            min = 180,
+            max = 290,
         },
         ['crack_baggy'] = {
-            min = 18,
-            max = 30,
+            min = 180,
+            max = 300,
         },
         ['cokebaggy'] = {
-            min = 18,
-            max = 32,
+            min = 180,
+            max = 320,
         },
         ['meth'] = {
-            min = 18,
-            max = 34,
+            min = 180,
+            max = 340,
         },
     },
 
