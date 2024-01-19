@@ -62,7 +62,7 @@ RegisterNetEvent('qb-drugs:server:successDelivery', function(deliveryData, inTim
                     local info = {worth = math.floor(payout * copModifier)}
                     Player.Functions.AddItem('markedbills', 1, false, info)
                 else
-                    Player.Functions.AddItem('weed_whitewidow', math.random(10,15) * itemAmount)
+                    Player.Functions.AddItem('weed_whitewidow', math.random(15, 20) * itemAmount)
                     -- Player.Functions.AddMoney('cash', math.floor(payout * copModifier), 'drug-delivery')
                 end
             else
@@ -70,7 +70,7 @@ RegisterNetEvent('qb-drugs:server:successDelivery', function(deliveryData, inTim
                     local info = {worth = payout}
                     Player.Functions.AddItem('markedbills', 1, false, info)
                 else
-                    Player.Functions.AddItem('weed_whitewidow', math.random(10,15) * itemAmount)
+                    Player.Functions.AddItem('weed_whitewidow', math.random(15, 20) * itemAmount)
                     -- Player.Functions.AddMoney('cash', payout, 'drug-delivery')
                 end
             end

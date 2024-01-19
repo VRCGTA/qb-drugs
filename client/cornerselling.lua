@@ -150,7 +150,7 @@ local function SellToPed(ped)
 
     local ddata = Config.DrugsPrice[currentOfferDrug.item]
     local randomPrice = math.random(ddata.min, ddata.max) * bagAmount
-    if scamChance <= Config.ScamChance then randomPrice = math.random(3, 10) * bagAmount end
+    if scamChance <= Config.ScamChance then randomPrice = math.random(30, 100) * bagAmount end
 
     SetEntityAsNoLongerNeeded(ped)
     ClearPedTasks(ped)

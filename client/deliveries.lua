@@ -411,7 +411,7 @@ RegisterNetEvent('qb-drugs:client:setLocation', function(locationData)
         return
     end
     activeDelivery = locationData
-    deliveryTimeout = 300
+    deliveryTimeout = 1200
     DeliveryTimer()
     SetMapBlip(activeDelivery["coords"].x, activeDelivery["coords"].y)
     if Config.UseTarget then

@@ -4,7 +4,7 @@ Config = {
     DeliveryWithin = 5000,                                 -- int (Default 2000) - How many units do you want the delivery location to be within from the player when making a delivery request?
     Dealers = {},
     UseTarget = GetConvar('UseTarget', 'false') == 'true', -- Use qb-target interactions (don't change this, go to your server.cfg and add setr UseTarget true)
-    PoliceCallChance = 100,                                 --in percentage (if 99, theres the 99% to call the police)
+    PoliceCallChance = 100,                                -- don't work by azutake --in percentage (if 99, theres the 99% to call the police)
 
     -- Shop Config
     Products = {
@@ -101,10 +101,10 @@ Config = {
     },
 
     -- Selling Config
-    SuccessChance = 50,
-    ScamChance = 25,
-    RobberyChance = 25,
-    MinimumDrugSalePolice = 100,
+    SuccessChance = 30, -- (100-SuccessChance)%
+    ScamChance = 10,
+    RobberyChance = 10,
+    MinimumDrugSalePolice = 300,
 
     DrugsPrice = {
         ['weed_whitewidow'] = {
