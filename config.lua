@@ -1,11 +1,10 @@
 Config = {
     Debug = false,                                          -- true / false - Currently prints the vector3 and label of locations when requesting a delivery
     NearbyDeliveries = true,                               -- true / false - Do you want deliveries to be within a certain amount of units?
-    DeliveryWithin = 5000,                                 -- int (Default 2000) - How many units do you want the delivery location to be within from the player when making a delivery request?
+    DeliveryWithin = 8000,                                 -- int (Default 2000) - How many units do you want the delivery location to be within from the player when making a delivery request?
     Dealers = {},
     UseTarget = GetConvar('UseTarget', 'false') == 'true', -- Use qb-target interactions (don't change this, go to your server.cfg and add setr UseTarget true)
-    PoliceCallChance = 100,                                -- don't work by azutake --in percentage (if 99, theres the 99% to call the police)
-
+    PoliceCallChance = 25,                                -- don't work by azutake --in percentage (if 99, theres the 99% to call the police)
     -- Shop Config
     Products = {
         [1] = {
@@ -104,44 +103,44 @@ Config = {
     SuccessChance = 30, -- (100-SuccessChance)%
     ScamChance = 10,
     RobberyChance = 10,
-    MinimumDrugSalePolice = 300,
+    MinimumDrugSalePolice = 10,
 
     DrugsPrice = {
         ['weed_whitewidow'] = {
-            min = 150,
-            max = 200,
+            min = 30,
+            max = 40,
         },
         ['weed_ogkush'] = {
-            min = 150,
-            max = 210,
+            min = 30,
+            max = 42,
         },
         ['weed_skunk'] = {
-            min = 150,
-            max = 220,
+            min = 30,
+            max = 40,
         },
         ['weed_amnesia'] = {
-            min = 180,
-            max = 250,
+            min = 35,
+            max = 50,
         },
         ['weed_purplehaze'] = {
-            min = 180,
-            max = 270,
+            min = 36,
+            max = 54,
         },
         ['weed_ak47'] = {
-            min = 180,
-            max = 290,
+            min = 36,
+            max = 58,
         },
         ['crack_baggy'] = {
-            min = 180,
-            max = 300,
+            min = 36,
+            max = 60,
         },
         ['cokebaggy'] = {
-            min = 180,
-            max = 320,
+            min = 36,
+            max = 64,
         },
         ['meth'] = {
-            min = 180,
-            max = 340,
+            min = 36,
+            max = 68,
         },
     },
 
