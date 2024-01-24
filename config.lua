@@ -103,44 +103,45 @@ Config = {
     SuccessChance = 30, -- (100-SuccessChance)%
     ScamChance = 10,
     RobberyChance = 10,
-    MinimumDrugSalePolice = 10,
+    MinimumDrugSalePolice = 7,
 
+    DrugsPriceMultiplier = 2
     DrugsPrice = {
         ['weed_whitewidow'] = {
-            min = 30,
-            max = 40,
+            min = 30*DrugsPriceMultiplier,
+            max = 40*DrugsPriceMultiplier,
         },
         ['weed_ogkush'] = {
-            min = 30,
-            max = 42,
+            min = 30*DrugsPriceMultiplier,
+            max = 42*DrugsPriceMultiplier,
         },
         ['weed_skunk'] = {
-            min = 30,
-            max = 40,
+            min = 30*DrugsPriceMultiplier,
+            max = 40*DrugsPriceMultiplier,
         },
         ['weed_amnesia'] = {
-            min = 35,
-            max = 50,
+            min = 35*DrugsPriceMultiplier,
+            max = 50*DrugsPriceMultiplier,
         },
         ['weed_purplehaze'] = {
-            min = 36,
-            max = 54,
+            min = 36*DrugsPriceMultiplier,
+            max = 54*DrugsPriceMultiplier,
         },
         ['weed_ak47'] = {
-            min = 36,
-            max = 58,
+            min = 36*DrugsPriceMultiplier,
+            max = 58*DrugsPriceMultiplier,
         },
         ['crack_baggy'] = {
-            min = 36,
-            max = 60,
+            min = 36*DrugsPriceMultiplier,
+            max = 60*DrugsPriceMultiplier,
         },
         ['cokebaggy'] = {
-            min = 36,
-            max = 64,
+            min = 36*DrugsPriceMultiplier,
+            max = 64*DrugsPriceMultiplier,
         },
         ['meth'] = {
-            min = 36,
-            max = 68,
+            min = 36*DrugsPriceMultiplier,
+            max = 68*DrugsPriceMultiplier,
         },
     },
 
