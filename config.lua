@@ -105,7 +105,7 @@ Config = {
     RobberyChance = 10,
     MinimumDrugSalePolice = 7,
 
-    DrugsPriceMultiplier = 2
+    DrugsPriceMultiplier = 2,
     DrugsPrice = {
         ['weed_whitewidow'] = {
             min = 30*DrugsPriceMultiplier,
