@@ -1,3 +1,5 @@
+local DrugsPriceMultiplier = 2
+
 Config = {
     Debug = false,                                          -- true / false - Currently prints the vector3 and label of locations when requesting a delivery
     NearbyDeliveries = true,                               -- true / false - Do you want deliveries to be within a certain amount of units?
@@ -104,8 +106,6 @@ Config = {
     ScamChance = 10,
     RobberyChance = 10,
     MinimumDrugSalePolice = 7,
-
-    DrugsPriceMultiplier = 2,
     DrugsPrice = {
         ['weed_whitewidow'] = {
             min = 30*DrugsPriceMultiplier,
