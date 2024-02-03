@@ -105,7 +105,7 @@ Config = {
     SuccessChance = 30, -- (100-SuccessChance)%
     ScamChance = 10,
     RobberyChance = 10,
-    MinimumDrugSalePolice = 7,
+    MinimumDrugSalePolice = 6,
     DrugsPrice = {
         ['weed_whitewidow'] = {
             min = 30*DrugsPriceMultiplier,
@@ -138,10 +138,6 @@ Config = {
         ['cokebaggy'] = {
             min = 36*DrugsPriceMultiplier,
             max = 64*DrugsPriceMultiplier,
-        },
-        ['meth'] = {
-            min = 36*DrugsPriceMultiplier,
-            max = 68*DrugsPriceMultiplier,
         },
     },
 
